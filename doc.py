@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyC_Wo52Je-GKxP790tTDy1IP-U3AkKEr0A")
+genai.configure(api_key="YOUR_GEMINI_API_KEY_HERE")
 sys_prompt = """You are an AI code reviewer in a Python application.
                 Your job is to:
                 Identify Issues: Find bugs, syntax errors, and logical flaws in the code.
